@@ -26,4 +26,4 @@ jobs:
       - name: Terraform init
         run: terraform init
       - name: Terraform unit tests
-        run: terraform test -parallel=4
+        run: terraform test -verbose
